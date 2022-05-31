@@ -1,0 +1,240 @@
+    height: 100%;
+}
+     
+body{
+    margin: 0px;
+    padding: 0px;
+    background: red;
+    font-family: 'Roboto';
+    font-size: 12pt;
+}
+    
+p, ol, ul{
+    margin-top: 0;
+}
+ 
+p {
+    line-height: 180%;
+}
+ 
+ol, ul{
+    padding: 0;
+    list-style: none;
+}
+     
+.container{   
+ 
+    margin: 0px auto;
+    width: 1000px;
+}
+
+header{
+     
+    overflow: hidden;
+}
+#logo{
+    float: left;
+    padding: none;
+    margin: none;
+    height: 60px;
+    width: 30%;
+}
+ 
+
+#menu{
+    float:right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+ 
+
+     
+#menu li:hover a, #menu li span{
+    background: #242124;
+    text-color:lime;
+    text-decoration: none;
+    opacity: 0.8;
+    transform: translateY(3px);
+    transition: 2s;
+    
+}
+
+header{
+     
+    overflow: hidden;
+}
+ 
+#top-header{
+    text-color:lime;     
+    text-align: center;
+    height: 60px;
+}
+
+ 
+#menu{
+    float: right;
+    width: 65%;
+    height: 100%;
+    margin: none;
+
+}
+     
+#menu ul{
+    text-align: center;
+    float: right;
+    margin: none;
+    background: black;
+}
+     
+#menu li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+}
+     
+#menu li a, #menu li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+     
+#menu li a{
+         
+    color: White;
+}
+     
+#menu li:hover a, #menu li span{
+    color: lime;
+    border-right: 0.001px solid lime;
+    border-left: 0.001px solid lime;
+    border-top: 0.001px solid lime;
+    border-bottom: 0.001px solid lime;
+    text-decoration: none;
+}
+
+#search2 {
+   float: left;
+   padding:11px;
+   border:none;
+   margin-top: 3px;
+   margin-left:-40px;
+   font-size: 17px;
+   position: relative;
+   left: 160px;
+}
+
+
+
+
+
+h1{
+  text-align: center;
+}
+
+p12{
+  font-size: 19px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: 48px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right:0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color:lime;
+  font-size: 20px;
+  padding: 10px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+p14{
+  font-size: 20px;
+}
+
+{
+}
